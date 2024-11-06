@@ -60,7 +60,7 @@ header {
     top: 0;
     z-index: 1000; 
     backdrop-filter: blur(10px); 
-    padding: 5px 10px; 
+    padding: 5px 5px; 
 }
 
 .header h1 {
@@ -243,7 +243,15 @@ section div a:hover {
     text-align: center;
     border: white;
     width: 250px;
-    
+    max-width: 100%;
+    height: auto;
+}
+    .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;    
+    flex: 1 1 250px;    
 }
 
 
@@ -434,12 +442,12 @@ p{
     }
 
     #navId ul {
-        flex-direction: column;
+        flex-direction: row;
         gap: 5px;
     }
 
     #navId li {
-        padding: 5px 10px;
+        padding: 0px 0px;
     }
 
     .imagenPrincipalIndex {
@@ -449,17 +457,18 @@ p{
     }
 
     .imagenPrincipalIndex img {
-        width: 100%;
-        height: auto;
+        width: 170%;
+        height: 170%;
     }
 
     .productos {
         flex-direction: column;
         align-items: center;
+        flex-direction: column;
     }
 
     .producto {
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 }
