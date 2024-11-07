@@ -213,7 +213,7 @@ section div a:hover {
 }
 .nosotrosText img {
     margin-top: 20px;
-    height: 500PX;
+    height: 500px;
     margin-bottom: 30PX;
 }
 .nosotrosText h2, 
@@ -371,7 +371,7 @@ p{
 .footerReservado{
     width: 100%;
     text-align: center;
-    padding: 20px;}
+    padding: 10px;}
 
 
 .footerReservado h3 {
@@ -490,7 +490,11 @@ p{
     .producto .button {
         margin-top: 10px;
     }
-
+    .nosotrosText img {
+        margin-top: 20px;
+        height: 250px;
+        margin-bottom: 30PX;
+    }
     p {
         max-width: 90%;
         margin: 0 auto;
@@ -520,6 +524,11 @@ p{
         color: #333;
         font-size: 24px;
         text-decoration: none;
+    }
+    .footerReservado p{
+        width: 100%;
+        text-align: center;
+        
     }
 }
 
@@ -586,7 +595,11 @@ p{
     .producto .button {
         margin-top: 10px;
     }
-
+    .nosotrosText img {
+        margin-top: 20px;
+        height: 250px;
+        margin-bottom: 30PX;
+    }
     .footerSuscribite {
         flex-direction: column;
     }
@@ -614,6 +627,10 @@ p{
         color: #333;
         font-size: 24px;
         text-decoration: none;
+    }
+    .footerReservado p{
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -644,6 +661,11 @@ p{
 
     .footerSuscribite {
         flex-direction: row;
+    }
+    .footerReservado p{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
     }
 
     p {
