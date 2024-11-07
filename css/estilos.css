@@ -454,17 +454,16 @@ p{
         width: 100%;
         height: auto;
         margin-bottom: 50px;
-        overflow: hidden; /* Esto ayudará a evitar que la imagen se desborde */
+        overflow: hidden; 
     }
 
     .imagenPrincipalIndex img {
-        width: 100%; /* Asegura que la imagen no exceda el ancho */
-        height: auto; /* Mantiene la proporción de la imagen */
-        transition: transform 0.3s ease; /* Transición suave en el hover */
+        width: 100%; 
+        transition: transform 0.3s ease;
     }
 
     .imagenPrincipalIndex img:hover {
-        transform: scale(1); /* Desactiva el agrandamiento al hacer hover */
+        transform: scale(1); 
     }
 
     .productos {
@@ -491,7 +490,17 @@ p{
     .producto .button {
         margin-top: 10px; 
     }
-
+    .nosotrosText img {
+        margin-top: 20px;
+        height: 500PX;
+        margin-bottom: 30PX;
+    }
+    .nosotrosText p {
+        background-image: radial-gradient(circle, #000000, #161515, #252323, #343232, #444241, #444241, #444241, #444241, #343232, #252323, #161515, #000000);    color: white;
+        margin: 0 auto; 
+        line-height: 1.5; 
+        text-align: justify;
+    }
     p {
         max-width: 90%;
         margin: 0 auto;
@@ -525,17 +534,16 @@ p{
         width: 80%;
         height: auto;
         margin-bottom: 100px;
-        overflow: hidden; /* Evita que la imagen se desborde */
+        overflow: hidden; 
     }
 
     .imagenPrincipalIndex img {
-        width: 100%; /* Asegura que la imagen no se agrande en tabletas */
-        height: auto; /* Mantiene la proporción de la imagen */
+        width: 100%;
         transition: transform 0.3s ease;
     }
 
     .imagenPrincipalIndex img:hover {
-        transform: scale(1); /* Desactiva el agrandamiento al hacer hover */
+        transform: scale(1); 
     }
 
     .productos {
@@ -564,7 +572,16 @@ p{
     .producto .button {
         margin-top: 10px; 
     }
-
+    .nosotrosText img {
+        margin-top: 20px;
+        height: 250PX;
+        margin-bottom: 30PX;
+    }
+    .nosotrosText img {
+        margin-top: 20px;
+        height: 500PX;
+        margin-bottom: 30PX;
+    }
     .footerSuscribite {
         flex-direction: column;
     }
