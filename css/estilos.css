@@ -452,7 +452,6 @@ p{
 
     .imagenPrincipalIndex {
         width: 100%;
-        height: auto;
         margin-bottom: 50px;
         overflow: hidden; 
     }
@@ -492,7 +491,7 @@ p{
     }
     .nosotrosText img {
         margin-top: 20px;
-        height: 500PX;
+        height: 250PX;
         margin-bottom: 30PX;
     }
     .nosotrosText p {
@@ -532,7 +531,6 @@ p{
 
     .imagenPrincipalIndex {
         width: 80%;
-        height: auto;
         margin-bottom: 100px;
         overflow: hidden; 
     }
