@@ -577,11 +577,7 @@ p{
         height: 250PX;
         margin-bottom: 30PX;
     }
-    .nosotrosText img {
-        margin-top: 20px;
-        height: 500PX;
-        margin-bottom: 30PX;
-    }
+  
     .footerSuscribite {
         flex-direction: column;
     }
