@@ -454,16 +454,17 @@ p{
         width: 100%;
         height: auto;
         margin-bottom: 50px;
+        overflow: hidden; /* Esto ayudará a evitar que la imagen se desborde */
     }
 
     .imagenPrincipalIndex img {
-        width: 170%;
-        height: 170%;
-        transition: transform 0.3s ease; /* Añadido para transición suave */
+        width: 100%; /* Asegura que la imagen no exceda el ancho */
+        height: auto; /* Mantiene la proporción de la imagen */
+        transition: transform 0.3s ease; /* Transición suave en el hover */
     }
 
     .imagenPrincipalIndex img:hover {
-        transform: scale(1); /* Impide el agrandamiento en el hover */
+        transform: scale(1); /* Desactiva el agrandamiento al hacer hover */
     }
 
     .productos {
@@ -499,7 +500,7 @@ p{
     }
 }
 
-/* Tablet (Pantallas medianas)  */
+/* Tablet (Pantallas medianas) */
 @media (min-width: 601px) and (max-width: 1024px) {
     h1 {
         font-size: 32px;
@@ -524,14 +525,17 @@ p{
         width: 80%;
         height: auto;
         margin-bottom: 100px;
+        overflow: hidden; /* Evita que la imagen se desborde */
     }
 
     .imagenPrincipalIndex img {
-        transition: transform 0.3s ease; /* Añadido para transición suave */
+        width: 100%; /* Asegura que la imagen no se agrande en tabletas */
+        height: auto; /* Mantiene la proporción de la imagen */
+        transition: transform 0.3s ease;
     }
 
     .imagenPrincipalIndex img:hover {
-        transform: scale(1); /* Impide el agrandamiento en el hover */
+        transform: scale(1); /* Desactiva el agrandamiento al hacer hover */
     }
 
     .productos {
@@ -554,7 +558,6 @@ p{
     }
 
     .producto img {
-        
         max-width: 200px;
     }
 
@@ -579,7 +582,7 @@ p{
     }
 }
 
-/* Laptop/Notebooks (Pantallas grandes)  */
+/* Laptop/Notebooks (Pantallas grandes) */
 @media (min-width: 1025px) {
     .imagenPrincipalIndex {
         width: 600px;
@@ -597,7 +600,6 @@ p{
     }
 
     .producto img {
-       
         max-width: 250px;
     }      
 
